@@ -4,9 +4,46 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="stylesheet" href="./css/reset1.css">
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <script src="./script.js" defer></script>
+   <title>Roll The Dice | Challenge</title>
 </head>
 <body>
-   
+   <div class="landing-page-container">
+      <div class="game-rules">
+         <h1>Game Instructions</h1>
+         <ul>
+            <li>In your turn - roll the dice (at least one) and accumulate the result in "current".</li>
+            <li>you can roll again or click "HOLD" to add the points from "current" and end the turn.</li>
+            <li>Note! if you get 6-6 you will lose all points from "Current" and the turn will go to your opponent.</li>
+            <li>If you managed to reach the target score - you win! if you passed it - you loose!</li>
+         </ul>
+      </div>
+      <div class="target-score-container">
+      <form id="form-target-score">
+      <label for="target-score" form="form-target-score">Please select a target score:</label><br>
+      <input type="number" id="target-score" min="1" name="target-score">
+      <button type="button" id="btn">Start the Game</button>
+   </form>
+</div>
+   </div>
+   <div id="hide-game-page">
+   <div class="game-page-container">
+      <div id="plyr-1" class="design-plyr-1">PLAYER 1</div>
+      <div id="plyr-2" class="design-plyr-2">PLAYER 2</div>
+      <div class="design-plyr-1" id="plyr-1-final-score-design">Final Score<div id="plyr-1-final-score"></div> </div>
+      <div  class="design-plyr-2" id="plyr-2-final-score-design">Final Score<div id="plyr-2-final-score"></div></div>
+      
+      <div id="dice-1"><img id="dice-1-img" alt="first dice result"></div>
+      <div id="dice-2"><img id="dice-2-img" alt="second dice result"></div>
+      <div class="design-plyr-1" id="plyr-1-current-score-design">Current Score <div id="plyr-1-current-score"></div></div>
+      <div class="design-plyr-2" id="plyr-2-current-score-design">Current Score <div id="plyr-2-current-score"></div></div>
+      <div id="roll-dice-btn">ROLL DICE</div>
+      <div id="hold-btn">HOLD</div>
+      <button type="button" id="new-game-btn" >NEW GAME</button>
+   </div>
+</div>
 </body>
 </html>
