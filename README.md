@@ -1,8 +1,8 @@
 # 5W_Roll_the_Dice_Game
 the very first self build  website/game
 
-I am very good person , when it comes to deal with backend or non-styling programming.
-but when it comes to Css, it is hard for me to see the bigger picture , the mechanism of css
+i think i am better , when it comes to deal with backend or non-styling programming-problems.
+but when it comes to Css, it is hard for me to see the bigger picture , the mechanism of css.
 
 thats why my game looks very primitive and ugly, but on the other side it is fully functional and featured game ,it can store the score of who won every round , as a beginner i did my best to organize and clean write my JS-code.
 
