@@ -54,6 +54,7 @@
 #hold-btn{grid-area:'hold';}
 #plyr-2-current-score-design{grid-area:'player2currentscore';}
 #new-game-btn{grid-area:'newgame';}
+
 .design-plyr-1{
    background-color: rgb(147, 168, 172);
    border: solid #424b54 1rem;
