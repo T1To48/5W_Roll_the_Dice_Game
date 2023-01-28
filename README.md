@@ -1,5 +1,5 @@
 # 5W_Roll_the_Dice_Game
-the very first self build  website/game
+the very first 100% self build  website/game.
 
 i think i am better , when it comes to deal with backend or non-styling programming-problems.
 but when it comes to Css, it is hard for me to see the bigger picture , the mechanism of css.
