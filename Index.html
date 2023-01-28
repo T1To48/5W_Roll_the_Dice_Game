@@ -28,8 +28,7 @@
       <button type="button" id="btn">Start the Game</button>
    </form>
 </div>
-   </div>
-   <div id="hide-game-page">
+   </div> 
    <div class="game-page-container">
       <div id="plyr-1" class="design-plyr-1">PLAYER 1</div>
       <div id="plyr-2" class="design-plyr-2">PLAYER 2</div>
@@ -40,10 +39,21 @@
       <div id="dice-2"><img id="dice-2-img" alt="second dice result"></div>
       <div class="design-plyr-1" id="plyr-1-current-score-design">Current Score <div id="plyr-1-current-score"></div></div>
       <div class="design-plyr-2" id="plyr-2-current-score-design">Current Score <div id="plyr-2-current-score"></div></div>
-      <div id="roll-dice-btn">ROLL DICE</div>
-      <div id="hold-btn">HOLD</div>
+      <button type="button" id="roll-dice-btn">ROLL DICE</button>
+      <button type="button" id="hold-btn">HOLD</button>
       <button type="button" id="new-game-btn" >NEW GAME</button>
+      <div id="choosen-target-score">Target Score:<span id='target'></span></div>
    </div>
-</div>
+<br>
+   <table>
+      <tr>
+         <th>Player 1</th>
+         <th>Player 2</th>
+      </tr>
+      <tr>
+         <td id="result-1"></td>
+         <td id="result-2" ></td>
+      </tr>
+   </table>
 </body>
 </html>

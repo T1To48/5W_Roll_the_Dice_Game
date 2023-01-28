@@ -26,34 +26,60 @@
    'dice1 dice2'
    'player1currentscore player2currentscore'
    'rolldice hold'
-   'newgame newgame';
+   'newgame targetscr';
    height:90vh;
    width: 90%;
    font-size: 1.9rem;
    margin:3.5rem 10rem 0;
 }
-#plyr-1{ 
-   grid-area: 'player1';
-}
-#plyr-2{
-   grid-area:'player2';
-   background-color:#424b54 ;
-   border: solid rgb(147, 168, 172) 1rem;
-   width: fit-content;
-   height: fit-content;
-   font-size:3rem;
-   border-radius: 1.5rem;
-   color:bisque;
-}
+#plyr-1{ grid-area: 'player1';}
+#plyr-2{grid-area:'player2';}
 #plyr-1-final-score-design{grid-area:'player1fscore';}
 #dice-1{grid-area:"dice1";}
 #plyr-2-final-score-design{grid-area:'player2fscore';}
 #dice-2{grid-area:'dice2';}
 #plyr-1-current-score-design{grid-area:'player1currentscore';}
-#roll-dice-btn{grid-area: 'rolldice';}
-#hold-btn{grid-area:'hold';}
+#roll-dice-btn{
+   grid-area: 'rolldice';
+   width: fit-content;
+   height: fit-content;
+   background-color: bisque;
+   font-weight: bold;
+   border: solid  1rem;
+   font-size:3rem;
+   border-radius: 3.7rem;
+}
+#hold-btn{
+   grid-area:'hold';
+   width: fit-content;
+   height: fit-content;
+   background-color: bisque;
+   font-weight: bold;
+   border: solid  1rem;
+   font-size:3rem;
+   border-radius: 1.5rem;
+}
 #plyr-2-current-score-design{grid-area:'player2currentscore';}
-#new-game-btn{grid-area:'newgame';}
+#new-game-btn{
+   grid-area:'newgame';
+   width: fit-content;
+   height: fit-content;
+   background-color: bisque;
+   font-weight: bold;
+   border: solid  1rem;
+   font-size:3rem;
+   border-radius: 3.7rem;
+}
+#choosen-target-score{
+   grid-area: 'targetscr';
+   width: fit-content;
+   height: fit-content;
+   background-color: bisque;
+   font-weight: bold;
+   border: solid  1rem;
+   font-size:3rem;
+   border-radius: 1.5rem;
+}
 
 .design-plyr-1{
    background-color: rgb(147, 168, 172);
@@ -77,5 +103,12 @@ img{
    border-radius: 3rem;
    height: 15rem;
    width: 15rem;
+}
+table th,table td{
+   font-size: 3rem;
+   padding: 0 20rem 0;
+}
+table{
+   display:none;
 }
 
